@@ -5,6 +5,7 @@ This project is part of Udacity Deep Reinforcement Learning Nanodegree.
 In this environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1. If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01. Thus, the goal of each agent is to keep the ball in play.
 
 ![image](tennis.gif)
+
 The observation space consists of 8 variables corresponding to the position and velocity of the ball and racket. Each agent receives its own, local observation. Two continuous actions are available, corresponding to movement toward (or away from) the net, and jumping.
 
 The goal of the project is to train 2 identical agents in the environment to get an average score of +0.5 (over 100 consecutive episodes, and maximum over both agents).
