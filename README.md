@@ -1,7 +1,7 @@
-#Project 3: Collaboration and Competition - Tennis
+# Project 3: Collaboration and Competition - Tennis
 This project is part of Udacity Deep Reinforcement Learning Nanodegree.
 
-##Project Details
+## Project Details
 In this environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1. If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01. Thus, the goal of each agent is to keep the ball in play.
 
 ![image](tennis.gif)
@@ -9,7 +9,7 @@ The observation space consists of 8 variables corresponding to the position and 
 
 The goal of the project is to train 2 identical agents in the environment to get an average score of +0.5 (over 100 consecutive episodes, and maximum over both agents).
 
-##Getting Started
+## Getting Started
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
@@ -30,7 +30,7 @@ The project has dependency on following libraries:
 * Matplotlib
 * Numpy
 
-##Instructions
+## Instructions
 The project has Tennis (Jupyter) Notebook as the base file. 
 
 The environment class is called in the notebook to show the state and action spaces. The ddpg() function is defined in the notebook which calls the agent class defined in ddpg_agent.py to take actions and to learn from traversed states. 
